@@ -1,0 +1,6 @@
+version: "3"
+services:
+  server:
+    image: spring-docker-jib-demo:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8080
